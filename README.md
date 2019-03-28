@@ -27,6 +27,13 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run deploy`
+
+Deploys the app to production using GitHub Pages to do the hosting.<br> 
+It uses the `homepage` field to determine the root URL in the built HTML file.
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**

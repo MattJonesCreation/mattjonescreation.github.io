@@ -30,7 +30,7 @@ class App extends Component {
               <nav>
                 <ul>
                   <li>
-                    <Link to="/portfolio">Home</Link>
+                    <Link to="/portfolio/">Home</Link>
                   </li>
                   <li>
                     <Link to="/about/">About</Link>
@@ -41,7 +41,7 @@ class App extends Component {
                 </ul>
               </nav>
       
-              <Route path="/portfolio" component={Index} />
+              <Route path="/portfolio/" component={Index} />
               <Route path="/about/" component={About} />
               <Route path="/users/" component={Users} />
             </div>

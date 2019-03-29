@@ -46,9 +46,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Technologies 
+* [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* [React documentation](https://reactjs.org/).
+* [React Router documentation](https://reacttraining.com/react-router/).
+* [Semantic UI React](https://react.semantic-ui.com/).
 
 ### Code Splitting
 

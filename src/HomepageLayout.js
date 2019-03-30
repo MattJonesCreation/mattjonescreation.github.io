@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import { NavLink, Link, Route } from "react-router-dom";
 import { Button, Container, Grid, Header, Icon, List, Menu, Responsive, Segment, Sidebar, Visibility } from 'semantic-ui-react';
 import logo from './images/favicons/favicon.ico';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
 
 // Heads up!
 // We using React Static to prerender our docs with server side rendering, this is a quite simple solution.
@@ -44,58 +46,6 @@ class Pages extends React.Component {
             </React.Fragment>
         );
     } 
-};
-
-/* eslint-disable react/no-multi-comp */
-/* Heads up! HomepageHeading uses inline styling, however it's not the best practice. Use CSS or styled components for
- * such things.
- */
-const HomepageHeading = ({ mobile }) => (
-    <React.Fragment>
-        <Segment inverted textAlign='center' style={{ padding: '1em 0em', minHeight: '500px' }} vertical>
-    <Container text>
-        <Header
-            as='h1'
-            content='Matt Jones'
-            inverted
-            style={{
-            fontSize: mobile ? '2em' : '4em',
-            fontWeight: 'normal',
-            marginBottom: 0,
-            marginTop: mobile ? '1em' : '2em'
-            }}
-        />
-        <Header
-            as='h2'
-            content='Full-stack software engineer, voracious learner, and obsessive builder. Always striving to improve.'
-            inverted
-            style={{
-            fontSize: mobile ? '1.5em' : '1.7em',
-            fontWeight: 'normal',
-            marginTop: mobile ? '0.5em' : '1.5em'
-            }}
-        />    
-    </Container>
-    </Segment>
-    {/* Header Page */}
-    <Segment style={{ padding: '8em 0em' }} vertical>
-        <Container text>
-            <Header as='h3' style={{ fontSize: '2em' }}>
-                Some Of My Latest Work
-            </Header>
-            <p style={{ fontSize: '1.33em' }}>
-                Instead of focusing on content creation and hard work, we have learned how to master the
-                art of doing nothing by providing massive amounts of whitespace and generic content that
-                can seem massive, monolithic and worth your attention.
-            </p>
-            <Button as='a' size='large'>Read More</Button>
-        </Container>
-    </Segment>
-    </React.Fragment>
-);
-  
-HomepageHeading.propTypes = {
-    mobile: PropTypes.bool,
 };
   
 /* Heads up!
@@ -195,10 +145,6 @@ function Projects() {
     return <h2>Home</h2>;
   }
   
-  function About() {
-    return <h2>About</h2>;
-  }
-  
   function Users() {
     return <h2>Users</h2>;
   }
@@ -206,9 +152,9 @@ function Projects() {
 const HomepageLayout = () => (
     <ResponsiveContainer>
         {/* Routes */}
-        <Route path="/" exact component={HomepageHeading} />
+        <Route path="/" exact component={HomePage} />
         <Route path="/projects/" component={Projects} />
-        <Route path="/about/" component={About} />
+        <Route path="/about/" component={AboutPage} />
         <Route path="/contact/" component={Users} />
 
         {/* Footer */}

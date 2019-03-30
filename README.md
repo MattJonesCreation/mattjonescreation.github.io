@@ -46,6 +46,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
+Designed and built by Matt Jones, bootstrapped with create-react-app. 
+
 ### Technologies 
 * [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 * [React documentation](https://reactjs.org/).

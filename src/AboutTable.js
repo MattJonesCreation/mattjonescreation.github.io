@@ -2,7 +2,7 @@ import React from 'react';
 import { Table } from 'semantic-ui-react';
 
 const AboutTable = () => (
-    <Table inverted>
+    <Table inverted unstackable>
         <Table.Header>
             <Table.Row>
                 <Table.HeaderCell>Company</Table.HeaderCell>

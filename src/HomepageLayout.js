@@ -147,7 +147,11 @@ class MobileContainer extends Component {
 
         return (
             <Responsive as={Sidebar.Pushable} getWidth={getWidth} maxWidth={Responsive.onlyMobile.maxWidth}>
-                <Sidebar as={Menu} animation='overlay' direction='right' inverted onHide={this.handleSidebarHide} vertical visible={sidebarOpened}>
+                <Sidebar as={Menu} animation='push' direction='right' inverted onHide={this.handleSidebarHide} vertical visible={sidebarOpened}>
+                    <Header style={{ padding: '1em 0em .5em 1em' }} inverted={true} as='h3'>
+                        Menu
+                        <Icon style={{ float: 'right' }} name='close' link onClick={this.handleSidebarHide} />
+                    </Header>
                     <Pages />
                 </Sidebar>
 
@@ -156,8 +160,11 @@ class MobileContainer extends Component {
                         <Container>
                         <Menu inverted={true} secondary={true} size='large'>
                             <Menu.Item as={Link} to="/" name='home'><img src={logo} alt="logo"/></Menu.Item>
-                            <Menu.Item position='right' onClick={this.handleSidebarShow}>
-                                <Icon name='sidebar' />
+                            <Menu.Item position='right'>
+                                <Button inverted={true} onClick={this.handleSidebarShow}>                                        
+                                    <Icon name='sidebar' />
+                                    Menu                                       
+                                </Button>
                             </Menu.Item>
                         </Menu>
                         </Container>

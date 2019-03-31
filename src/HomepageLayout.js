@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { NavLink, Link, Route } from "react-router-dom";
+import { NavLink, Link, Route, Switch } from "react-router-dom";
 import { Button, Container, Grid, Header, Icon, List, Menu, Responsive, Segment, Sidebar, Visibility } from 'semantic-ui-react';
 import logo from './images/favicons/favicon.ico';
 import HomePage from './pages/HomePage';
@@ -147,10 +147,13 @@ ResponsiveContainer.propTypes = {
 const HomepageLayout = () => (
     <ResponsiveContainer>
         {/* Routes */}
-        <Route path="/" exact component={HomePage} />
-        <Route path="/projects/" component={ProjectsPage} />
-        <Route path="/about/" component={AboutPage} />
-        <Route path="/contact/" component={ContactPage} />
+        <Switch>
+            <Route path="/" exact component={HomePage} />
+            <Route path="/projects/" component={ProjectsPage} />
+            <Route path="/about/" component={AboutPage} />
+            <Route path="/contact/" component={ContactPage} />
+        </Switch>
+
 
         {/* Footer */}
         <Segment inverted vertical style={{ padding: '5em 0em' }}>

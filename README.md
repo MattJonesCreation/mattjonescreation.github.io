@@ -52,12 +52,9 @@ Designed and built by Matt Jones, bootstrapped with create-react-app.
 * [React documentation](https://reactjs.org/).
 * [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 * [React Router documentation](https://reacttraining.com/react-router/). Declarative routing for React.
-* [Semantic UI React documentation](https://react.semantic-ui.com/). 
-
-#### In Process of Adding
+* [Semantic UI React documentation](https://react.semantic-ui.com/). Manages fonts and styling.  
 * [React Helmet documentation](https://github.com/nfl/react-helmet). Manages the document head, including title, description, and meta tags.
 * [React Snapshot documentation](https://www.npmjs.com/package/react-snapshot). A zero-configuration pre-renderer for React apps.
-
 
 ### Code Splitting
 

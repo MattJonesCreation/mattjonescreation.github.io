@@ -5,6 +5,7 @@ import { Button, Container, Grid, Header, Icon, List, Menu, Responsive, Segment,
 import logo from './images/favicons/favicon.ico';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
 
 // Heads up!
 // We using React Static to prerender our docs with server side rendering, this is a quite simple solution.
@@ -144,10 +145,6 @@ ResponsiveContainer.propTypes = {
 function Projects() {
     return <h2>Home</h2>;
   }
-  
-  function Users() {
-    return <h2>Users</h2>;
-  }
 
 const HomepageLayout = () => (
     <ResponsiveContainer>
@@ -155,7 +152,7 @@ const HomepageLayout = () => (
         <Route path="/" exact component={HomePage} />
         <Route path="/projects/" component={Projects} />
         <Route path="/about/" component={AboutPage} />
-        <Route path="/contact/" component={Users} />
+        <Route path="/contact/" component={ContactPage} />
 
         {/* Footer */}
         <Segment inverted vertical style={{ padding: '5em 0em' }}>

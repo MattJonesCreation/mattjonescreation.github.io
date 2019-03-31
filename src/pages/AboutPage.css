@@ -1,3 +1,7 @@
 .AboutPage-intro > p {
     font-size: 1.33em
 }
+
+.AboutPage-segment {
+    padding: 5em 0em
+}

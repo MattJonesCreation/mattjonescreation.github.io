@@ -1,8 +1,19 @@
 import React, { Component } from 'react';
-import { Container, Header, Segment, Grid, Image } from 'semantic-ui-react';
+import { Container, Header, Segment, Grid, Image, Card } from 'semantic-ui-react';
 import mattspond from './../images/mattspond.png';
 import './AboutPage.css';
 import AboutTable from '../AboutTable';
+
+const MattImageCard = () => (
+    <Card centered>
+        <Image src={mattspond} />
+        <Card.Content>
+            <Card.Header>Matt</Card.Header>
+            <Card.Meta>Developing Since 2012</Card.Meta>
+            <Card.Description>Full-stack software engineer, voracious learner, and obsessive builder.</Card.Description>
+        </Card.Content>
+    </Card>
+);
 
 class AboutPage extends Component {
     constructor(props) {
@@ -12,17 +23,17 @@ class AboutPage extends Component {
 
     render() {
         return (
-            <Segment inverted vertical style={{ padding: '5em 0em' }}>
-                <Container className="AboutPage-container">
+            <Segment inverted vertical className="AboutPage-segment">
+                <Container>
                     <Grid inverted stackable>
                         <Grid.Row>
                             <Grid.Column width={16}>
-                                <Header inverted as="h1" className="">About</Header>
+                                <Header inverted as="h1">About</Header>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row>
-                            <Grid.Column width={8}>
-                                <Image src={mattspond} />     
+                            <Grid.Column width={6}>
+                                <MattImageCard />     
                             </Grid.Column>   
                             <Grid.Column width={8} className="AboutPage-intro">
                                 <p>

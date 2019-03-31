@@ -29,19 +29,19 @@ class Pages extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <Menu.Item as={Nav} to="/" name="home" position='right'>
+                <Menu.Item as={Nav} to="/" name="home" position='right' onClick={this.props.onClick}>
                     <Icon name='home' />
                     Home
                 </Menu.Item>
-                <Menu.Item as={Nav} to="/projects" name="projects" >
+                <Menu.Item as={Nav} to="/projects" name="projects" onClick={this.props.onClick}>
                     <Icon name='briefcase' />
                     Projects & Guides
                 </Menu.Item>
-                <Menu.Item as={Nav} to="/about" name="about" >
+                <Menu.Item as={Nav} to="/about" name="about" onClick={this.props.onClick}>
                     <Icon name='info' />
                     About
                 </Menu.Item>
-                <Menu.Item as={Nav} to="/contact" name="contact">
+                <Menu.Item as={Nav} to="/contact" name="contact" onClick={this.props.onClick}>
                     <Icon name='address book' />
                     Contact
                 </Menu.Item>
@@ -104,7 +104,7 @@ class MobileContainer extends Component {
                         Menu
                         <Icon style={{ float: 'right' }} name='close' link onClick={this.handleSidebarHide} />
                     </Header>
-                    <Pages />
+                    <Pages onClick={this.handleSidebarHide} />
                 </Sidebar>
 
                 <Sidebar.Pusher dimmed={sidebarOpened}>

@@ -49,10 +49,15 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 Designed and built by Matt Jones, bootstrapped with create-react-app. 
 
 ### Technologies 
-* [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 * [React documentation](https://reactjs.org/).
-* [React Router documentation](https://reacttraining.com/react-router/).
-* [Semantic UI React](https://react.semantic-ui.com/).
+* [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* [React Router documentation](https://reacttraining.com/react-router/). Declarative routing for React.
+* [Semantic UI React documentation](https://react.semantic-ui.com/). 
+
+#### In Process of Adding
+* [React Helmet documentation](https://github.com/nfl/react-helmet). Manages the document head, including title, description, and meta tags.
+* [React Snapshot documentation](https://www.npmjs.com/package/react-snapshot). A zero-configuration pre-renderer for React apps.
+
 
 ### Code Splitting
 

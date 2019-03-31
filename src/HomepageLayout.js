@@ -6,6 +6,7 @@ import logo from './images/favicons/favicon.ico';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import ProjectsPage from './pages/ProjectsPage';
 
 // Heads up!
 // We using React Static to prerender our docs with server side rendering, this is a quite simple solution.
@@ -142,15 +143,12 @@ ResponsiveContainer.propTypes = {
     children: PropTypes.node,
 };
 
-function Projects() {
-    return <h2>Home</h2>;
-  }
 
 const HomepageLayout = () => (
     <ResponsiveContainer>
         {/* Routes */}
         <Route path="/" exact component={HomePage} />
-        <Route path="/projects/" component={Projects} />
+        <Route path="/projects/" component={ProjectsPage} />
         <Route path="/about/" component={AboutPage} />
         <Route path="/contact/" component={ContactPage} />
 

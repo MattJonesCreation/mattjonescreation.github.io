@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import HomepageLayout from './HomepageLayout';
 import { BrowserRouter as Router } from "react-router-dom";
+import Helmet from 'react-helmet';
 
 class App extends Component {
     constructor(props) {
@@ -14,6 +15,7 @@ class App extends Component {
         return (
             <Router> 
                 <div>
+                    <Helmet title="Matt Jones Portfolio" />
                     <HomepageLayout /> 
                 </div>
             </Router>                 

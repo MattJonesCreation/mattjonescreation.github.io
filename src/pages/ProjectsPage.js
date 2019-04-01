@@ -23,7 +23,7 @@ const ProjectsPage = () => (
             <Grid inverted stackable>
                 <Grid.Row>
                     <Grid.Column width={16}>
-                        <Header inverted as="h1">Projects & Guides</Header>
+                        <Header inverted as="h1">Projects</Header>
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>

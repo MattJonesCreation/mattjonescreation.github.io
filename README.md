@@ -5,6 +5,11 @@ The main branch for this repo is Source. Since this is a User Page on GitHub Pag
 
 In the project directory, you can run:
 
+### `npm install` 
+
+Installs all necessary dependencies.<br>
+Needs to be run when you first clone the repository. 
+
 ### `npm start`
 
 Runs the app in the development mode.<br>

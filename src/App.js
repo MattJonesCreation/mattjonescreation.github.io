@@ -3,6 +3,7 @@ import './App.css';
 import HomepageLayout from './HomepageLayout';
 import { BrowserRouter as Router } from "react-router-dom";
 import Helmet from 'react-helmet';
+import GA from './GoogleAnalytics';
 
 class App extends Component {
     constructor(props) {
@@ -14,6 +15,7 @@ class App extends Component {
     render() {
         return (
             <Router> 
+                { GA.init() && <GA.RouteTracker /> }
                 <div>
                     <Helmet title="Matt Jones Portfolio" />
                     <HomepageLayout /> 

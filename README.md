@@ -55,6 +55,7 @@ Designed and built by Matt Jones, bootstrapped with create-react-app.
 * [Semantic UI React documentation](https://react.semantic-ui.com/). Manages fonts and styling.  
 * [React Helmet documentation](https://github.com/nfl/react-helmet). Manages the document head, including title, description, and meta tags.
 * [React Snapshot documentation](https://www.npmjs.com/package/react-snapshot). A zero-configuration pre-renderer for React apps.
+* [React Google Analytics](https://github.com/react-ga/react-ga).
 
 ### Code Splitting
 

@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br>
+The main branch for this repo is Source. Since this is a User Page on GitHub Pages, the master branch is used as a deployment branch. 
 
 ## Available Scripts
 

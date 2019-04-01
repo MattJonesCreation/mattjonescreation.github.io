@@ -35,7 +35,11 @@ class Pages extends React.Component {
                 </Menu.Item>
                 <Menu.Item as={Nav} to="/projects" name="projects" onClick={this.props.onClick}>
                     <Icon name='briefcase' />
-                    Projects & Guides
+                    Projects
+                </Menu.Item>
+                <Menu.Item href="https://medium.com/brownbag" target='_blank'>
+                    <Icon name='external alternate' />
+                    Articles
                 </Menu.Item>
                 <Menu.Item as={Nav} to="/about" name="about" onClick={this.props.onClick}>
                     <Icon name='info' />

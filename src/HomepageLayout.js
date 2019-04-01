@@ -99,7 +99,7 @@ class MobileContainer extends Component {
 
         return (
             <Responsive as={Sidebar.Pushable} getWidth={getWidth} maxWidth={Responsive.onlyMobile.maxWidth}>
-                <Sidebar as={Menu} animation='push' direction='right' inverted onHide={this.handleSidebarHide} vertical visible={sidebarOpened}>
+                <Sidebar as={Menu} animation='overlay' direction='right' inverted onHide={this.handleSidebarHide} vertical visible={sidebarOpened}>
                     <Header style={{ padding: '1em 0em .5em 1em' }} inverted={true} as='h3'>
                         Menu
                         <Icon style={{ float: 'right' }} name='close' link onClick={this.handleSidebarHide} />

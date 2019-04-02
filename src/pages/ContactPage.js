@@ -19,7 +19,7 @@ const ContactPage = () => (
                         <Header inverted as="h3">Email</Header>
                         <p><a href="mailto:jonesm33@xavier.edu">jonesm33@xavier.edu</a></p>
                         <Header inverted as="h3">LinkedIn</Header>
-                        <p><a href="https://www.linkedin.com/in/matthew-jones-a5554897/">linkedin.com/in/MattJonesCreation</a></p>
+                        <p><a href="https://www.linkedin.com/in/MattJonesCreation/">linkedin.com/in/MattJonesCreation</a></p>
                         <Header inverted as="h3">Github</Header>
                         <p><a href="https://github.com/MattJonesCreation">github.com/MattJonesCreation</a></p>
                     </Grid.Column>                                            

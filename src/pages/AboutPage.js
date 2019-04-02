@@ -44,7 +44,7 @@ class AboutPage extends Component {
                                 <p>
                                     I graduated from Xavier University with degrees in Mathematics and Computer Science. 
                                     At Xavier University, I graduated as Magna Cum Laude while obtaining a 4.0 in Computer Science 
-                                    related majors and making Deans list every semester. I pride myself on always bringing out the 
+                                    related classes and making Deans list every semester. I pride myself on always bringing out the 
                                     best in my colleagues and I am able to do this because of the impact sports have had on my life.
                                 </p>
                                 <p>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container, Header, Segment, Grid, Image, Card } from 'semantic-ui-react';
 import profilePic from './../images/profile.JPG';
 import './AboutPage.css';
-import AboutTable from '../AboutTable';
+import AboutTable from './AboutTable';
 
 const MattImageCard = () => (
     <Card centered>

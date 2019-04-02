@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Container, Header, Segment, Grid, Image, Card } from 'semantic-ui-react';
-import mattspond from './../images/mattspond.png';
+import profilePic from './../images/profile.JPG';
 import './AboutPage.css';
 import AboutTable from '../AboutTable';
 
 const MattImageCard = () => (
     <Card centered>
-        <Image src={mattspond} />
+        <Image src={profilePic} />
         <Card.Content>
             <Card.Header>Matt</Card.Header>
             <Card.Meta>Developing Since 2012</Card.Meta>

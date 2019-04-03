@@ -23,7 +23,7 @@ const ScreensProjects = () => (
         {/* Defining the Page title, meta, description */}
         <Helmet>
             <title>Matt Jones Creations - Projects</title>
-            <meta name="description" content="Contains the featured projects of Software Engineer Matt Jones." />
+            <meta name="description" content="Contains all projects of Software Engineer Matt Jones." />
             <meta name="subject" content="Technology Portfolio" />
         </Helmet>
         <Container>

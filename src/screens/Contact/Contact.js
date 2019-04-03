@@ -1,9 +1,16 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import { Segment, Container, Grid, Header } from 'semantic-ui-react';
 import './Contact.css';
 
 const ScreensContact = () => (
     <Segment inverted vertical className="Contact-segment">
+        {/* Defining the Page title, meta, description */}
+        <Helmet>
+            <title>Matt Jones Creations - Home</title>
+            <meta name="description" content="Contains the featured projects of Software Engineer Matt Jones." />
+            <meta name="subject" content="Technology Portfolio" />
+        </Helmet>
         <Container>
             <Grid inverted stackable>
                 <Grid.Row>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Helmet from 'react-helmet';
 
 import ScreensHome from './Home/Home';
 import ScreensProjects from './Projects/Projects';
@@ -14,8 +13,6 @@ const ScreensRoot = () => (
     <Router>
         {/* Initialize Google Analytics and managing document title, description, and meta */}
         { GA.init() && <GA.RouteTracker /> }
-        <Helmet title="Matt Jones Portfolio" />
-
         <HomepageLayout> 
             {/* Main Content Routing Pages */}
             <Switch>

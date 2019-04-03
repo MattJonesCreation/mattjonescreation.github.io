@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import { Grid, Segment, Container, Header, Card } from 'semantic-ui-react';
 import './Projects.css';
 
@@ -19,6 +20,12 @@ const ProjectGroups = () => <Card.Group items={projects} />;
 
 const ScreensProjects = () => (
     <Segment inverted vertical className="Projects-segment">
+        {/* Defining the Page title, meta, description */}
+        <Helmet>
+            <title>Matt Jones Creations - Projects</title>
+            <meta name="description" content="Contains the featured projects of Software Engineer Matt Jones." />
+            <meta name="subject" content="Technology Portfolio" />
+        </Helmet>
         <Container>
             <Grid inverted stackable>
                 <Grid.Row>

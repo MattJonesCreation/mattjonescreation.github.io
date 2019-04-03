@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Button, Container, Header, Segment } from 'semantic-ui-react';
+import Helmet from 'react-helmet';
 import './Home.css';
 
 /* eslint-disable react/no-multi-comp */
@@ -16,6 +17,12 @@ class ScreensHome extends Component {
     render() {
         return (
             <React.Fragment>
+                {/* Defining the Page title, meta, description */}
+                <Helmet>
+                    <title>Matt Jones Creations - Home</title>
+                    <meta name="description" content="Contains the featured projects of Software Engineer Matt Jones." />
+                    <meta name="subject" content="Technology Portfolio" />
+                </Helmet>
                 <Segment inverted textAlign='center' className="Home-segment" vertical>
                     <Container text>
                         <Header

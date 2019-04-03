@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import { Container, Header, Segment, Grid } from 'semantic-ui-react';
 import AboutImageCard from '../../components/About/ImageCard';
 import AboutTable from '../../components/About/Table';
@@ -6,6 +7,12 @@ import './About.css';
 
 const ScreensAbout = () => (
     <Segment inverted vertical className="About-segment">
+        {/* Defining the Page title, meta, description */}
+        <Helmet>
+            <title>Matt Jones Creations - About</title>
+            <meta name="description" content="About Page for Software Engineer Matt Jones." />
+            <meta name="subject" content="About" />
+        </Helmet>
         <Container>
             <Grid inverted stackable>
                 <Grid.Row>

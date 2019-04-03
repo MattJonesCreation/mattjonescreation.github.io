@@ -1,28 +1,6 @@
-import React, { Component } from 'react';
-import './App.css';
-import HomepageLayout from './HomepageLayout';
-import { BrowserRouter as Router } from "react-router-dom";
-import Helmet from 'react-helmet';
-import GA from './GoogleAnalytics';
+import React from 'react';
+import ScreensRoot from './screens/Root';
 
-class App extends Component {
-    constructor(props) {
-        super(props);
-        this.state = { 
-        };
-    }
-
-    render() {
-        return (
-            <Router> 
-                { GA.init() && <GA.RouteTracker /> }
-                <div>
-                    <Helmet title="Matt Jones Portfolio" />
-                    <HomepageLayout /> 
-                </div>
-            </Router>                 
-        );
-    }
-}
+const App = () => ( <ScreensRoot /> );
 
 export default App;

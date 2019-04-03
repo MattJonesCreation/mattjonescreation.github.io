@@ -1,9 +1,9 @@
 import React from 'react';
 import { Segment, Container, Grid, Header } from 'semantic-ui-react';
-import './ContactPage.css';
+import './Contact.css';
 
-const ContactPage = () => (
-    <Segment inverted vertical className="ContactPage-segment">
+const ScreensContact = () => (
+    <Segment inverted vertical className="Contact-segment">
         <Container>
             <Grid inverted stackable>
                 <Grid.Row>
@@ -12,9 +12,12 @@ const ContactPage = () => (
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
-                    <Grid.Column width={16} className="ContactPage-contactinfo">
+                    <Grid.Column width={16} className="Contact-contactinfo">
                         <blockquote>
-                            <p>Feel free to reach out with any questions or inquiries, technical or otherwise. Please do not send spam or try to advertise any services to me.</p>
+                            <p>
+                                Feel free to reach out with any questions or inquiries, technical or otherwise.
+                                Please do not send spam or try to advertise any services to me.
+                            </p>
                         </blockquote>
                         <Header inverted as="h3">Email</Header>
                         <p><a href="mailto:jonesm33@xavier.edu">jonesm33@xavier.edu</a></p>
@@ -29,4 +32,4 @@ const ContactPage = () => (
     </Segment>
 );
 
-export default ContactPage;
+export default ScreensContact;

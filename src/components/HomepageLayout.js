@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { NavLink, Link, Route, Switch } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { Button, Container, Grid, Header, Icon, List, Menu, Responsive, Segment, Sidebar, Visibility } from 'semantic-ui-react';
-import logo from './images/favicons/favicon.ico';
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
-import ContactPage from './pages/ContactPage';
-import ProjectsPage from './pages/ProjectsPage';
+import logo from '../images/favicons/favicon.ico';
 
 // Heads up!
 // We using React Static to prerender our docs with server side rendering, this is a quite simple solution.
@@ -148,17 +144,9 @@ ResponsiveContainer.propTypes = {
 };
 
 
-const HomepageLayout = () => (
+const HomepageLayout = ({ children }) => (
     <ResponsiveContainer>
-        {/* Routes */}
-        <Switch>
-            <Route path="/" exact component={HomePage} />
-            <Route path="/projects/" component={ProjectsPage} />
-            <Route path="/about/" component={AboutPage} />
-            <Route path="/contact/" component={ContactPage} />
-        </Switch>
-
-
+        {children}
         {/* Footer */}
         <Segment inverted vertical style={{ padding: '5em 0em' }}>
             <Container>

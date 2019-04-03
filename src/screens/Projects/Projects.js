@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Segment, Container, Header, Card } from 'semantic-ui-react';
-import './ProjectsPage.css';
+import './Projects.css';
 
 const projects = [
     {
@@ -17,7 +17,7 @@ const projects = [
 
 const ProjectGroups = () => <Card.Group items={projects} />;
 
-const ProjectsPage = () => (
+const ScreensProjects = () => (
     <Segment inverted vertical className="Projects-segment">
         <Container>
             <Grid inverted stackable>
@@ -27,7 +27,7 @@ const ProjectsPage = () => (
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
-                    <Grid.Column width={16} className="ProjectsPage-">
+                    <Grid.Column width={16}>
                         <ProjectGroups />
                     </Grid.Column>                                            
                 </Grid.Row>
@@ -36,4 +36,4 @@ const ProjectsPage = () => (
     </Segment>
 );
 
-export default ProjectsPage;
+export default ScreensProjects;

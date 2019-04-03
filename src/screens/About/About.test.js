@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AboutPage from './AboutPage';
+import ScreensAbout from './About';
 
 it('AboutPage renders without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<AboutPage />, div);
+    ReactDOM.render(<ScreensAbout />, div);
     ReactDOM.unmountComponentAtNode(div);
 });

@@ -1,17 +1,17 @@
-.ContactPage-segment {
+.Contact-segment {
     padding: 5em 0em;
 }
 
-.ContactPage-contactinfo > p {
+.Contact-contactinfo > p {
     font-size: 1.33em;
 }
 
-.ContactPage-contactinfo > blockquote {
+.Contact-contactinfo > blockquote {
     font-size: 1.33em;
     font-style: italic;
     border-left: #4a4a4a .4em solid;
 }
 
-.ContactPage-contactinfo > blockquote > p {
+.Contact-contactinfo > blockquote > p {
     margin: .8em .8em;
 }

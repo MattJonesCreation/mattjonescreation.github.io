@@ -2,8 +2,22 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import { Container, Header, Segment, Grid } from 'semantic-ui-react';
 import AboutImageCard from '../../components/About/ImageCard';
-import AboutTable from '../../components/About/Table';
+import UITable from '../../components/UI/Table';
 import './About.css';
+
+const experienceHeaders = ["Company", "Period", "Position"];
+const experienceRows = [
+    ["Software Design Solutions", "May 2016 - Present", "Software Engineer"],
+    ["Epsilon", "July 2015 - May 2016", "Software Developer"]
+];
+const educationHeaders = ["Degree", "University"];
+const educationRows = [
+    ["Mathematics and Computer Science (B.S.)", "Xavier University"]
+];
+const skillsHeaders = [];
+const skillsRows = [
+    ["C#"], ["SQL / Oracle"], ["HTML / CSS / JS"], ["ASP.NET / Web API 2 / MVC"], ["Windows Forms"], ["WPF / XAML"], ["React / NodeJS"], ["Agile / JIRA"]
+];
 
 const ScreensAbout = () => (
     <Segment inverted vertical className="About-segment">
@@ -46,8 +60,18 @@ const ScreensAbout = () => (
                         </p>
                     </Grid.Column>                                            
                 </Grid.Row>
-            </Grid>
-            <AboutTable />
+                <Grid.Row>
+                    <Grid.Column width={6}>
+                        <UITable headers={experienceHeaders} rows={experienceRows} title={"Experience"} />
+                    </Grid.Column>
+                    <Grid.Column width={6}>
+                        <UITable headers={educationHeaders} rows={educationRows} title={"Education"} />
+                    </Grid.Column>
+                    <Grid.Column width={4}>
+                        <UITable headers={skillsHeaders} rows={skillsRows} title={"Technical Skills"} />
+                    </Grid.Column>
+                </Grid.Row>
+            </Grid>         
         </Container>
     </Segment>
 );

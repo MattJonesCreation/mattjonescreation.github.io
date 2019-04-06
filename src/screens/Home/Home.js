@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import { Button, Container, Header, Segment } from 'semantic-ui-react';
+import { Grid, Container, Header, Segment } from 'semantic-ui-react';
 import Helmet from 'react-helmet';
+
+import ProjectGroup from '../../components/Project/Group';
 import './Home.css';
 
 /* eslint-disable react/no-multi-comp */
@@ -40,17 +42,22 @@ class ScreensHome extends Component {
                     </Container>
                 </Segment>
                 {/* Header Page */}
-                <Segment className="Home-segment" vertical>
-                    <Container text>
-                        <Header as='h3' className="Home-h3">
-                            Some Of My Latest Work
-                        </Header>
-                        <p>
-                            Instead of focusing on content creation and hard work, we have learned how to master the
-                            art of doing nothing by providing massive amounts of whitespace and generic content that
-                            can seem massive, monolithic and worth your attention.
-                        </p>
-                        <Button as='a' size='large'>Read More</Button>
+                <Segment textAlign="center" className="Home-segment" vertical>
+                    <Container>
+                        <Grid columns={1}>
+                            <Grid.Row>
+                                <Grid.Column>
+                                    <Header as='h3' className="Home-h3">
+                                        Some Of My Latest Work
+                                    </Header>
+                                </Grid.Column>
+                            </Grid.Row>
+                            <Grid.Row>
+                                <Grid.Column>
+                                    <ProjectGroup />
+                                </Grid.Column>
+                            </Grid.Row>
+                        </Grid>
                     </Container>
                 </Segment>
             </React.Fragment>

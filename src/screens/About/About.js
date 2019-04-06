@@ -1,6 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import { Container, Header, Segment, Grid } from 'semantic-ui-react';
+import { Container, Header, Segment, Grid, Divider } from 'semantic-ui-react';
 import AboutImageCard from '../../components/About/ImageCard';
 import UITable from '../../components/UI/Table';
 import './About.css';
@@ -60,6 +60,7 @@ const ScreensAbout = () => (
                         </p>
                     </Grid.Column>                                            
                 </Grid.Row>
+                <Divider />
                 <Grid.Row>
                     <Grid.Column width={6}>
                         <UITable headers={experienceHeaders} rows={experienceRows} title={"Experience"} />

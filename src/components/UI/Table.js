@@ -7,21 +7,21 @@ const UITable = (props) => (
         <Table inverted unstackable>
             <Table.Header>
                 <Table.Row>
-                    {props.headers.map(header => {
+                    {props.headers.map((header, index) => {
                         return (
-                            <Table.HeaderCell>{header}</Table.HeaderCell>
+                            <Table.HeaderCell key={index}>{header}</Table.HeaderCell>
                         );
                     })}
                 </Table.Row>
             </Table.Header>
 
             <Table.Body>
-                {props.rows.map(row => {
+                {props.rows.map((row, index) => {
                     return (
-                        <Table.Row>
-                            {row.map(r => {
+                        <Table.Row key={index}>
+                            {row.map((r, index) => {
                                 return (
-                                    <Table.Cell>{r}</Table.Cell>
+                                    <Table.Cell key={index}>{r}</Table.Cell>
                                 );
                             })}
                         </Table.Row>

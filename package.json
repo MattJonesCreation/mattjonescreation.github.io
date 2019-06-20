@@ -1,34 +1,36 @@
 {
-    "name": "portfolio",
-    "version": "0.1.0",
-    "private": true,
-    "homepage": "https://himattjones.com",
-    "dependencies": {
-        "gh-pages": "^2.0.1",
-        "react": "^16.8.4",
-        "react-dom": "^16.8.4",
-        "react-ga": "^2.5.7",
-        "react-helmet": "^5.2.0",
-        "react-router-dom": "^5.0.0",
-        "react-scripts": "2.1.8",
-        "react-snapshot": "^1.3.0",
-        "semantic-ui-react": "^0.86.0"
-    },
-    "scripts": {
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -b master -d build",
-        "start": "react-scripts start",
-        "build": "react-scripts build && react-snapshot",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-    },
-    "eslintConfig": {
-        "extends": "react-app"
-    },
-    "browserslist": [
-        ">0.2%",
-        "not dead",
-        "not ie <= 11",
-        "not op_mini all"
-    ]
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://himattjones.com",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-ga": "^2.5.7",
+    "react-helmet": "^5.2.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "react-snapshot": "^1.3.0",
+    "semantic-ui-react": "^0.86.0",
+    "source-map-explorer": "^2.0.1"
+  },
+  "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build && react-snapshot",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

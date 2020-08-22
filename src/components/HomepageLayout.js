@@ -33,7 +33,7 @@ class Pages extends React.Component {
                     <Icon name='briefcase' />
                     Projects
                 </Menu.Item>
-                <Menu.Item href="https://medium.com/brownbag" target='_blank'>
+                <Menu.Item href="https://medium.com/brownbag" rel="noopener" target='_blank'>
                     <Icon name='external alternate' />
                     Articles
                 </Menu.Item>

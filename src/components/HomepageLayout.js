@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { NavLink, Link } from "react-router-dom";
 import { Button, Container, Grid, Header, Icon, Menu, Responsive, Segment, Sidebar, Visibility } from 'semantic-ui-react';
-import logo from '../images/favicons/favicon.ico';
+import logo from '../favicons/favicon.ico';
 
 // Heads up!
 // We using React Static to prerender our docs with server side rendering, this is a quite simple solution.

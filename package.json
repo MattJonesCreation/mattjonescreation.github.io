@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://himattjones.com",
   "dependencies": {
+    "cloudinary-react": "^1.6.6",
     "gh-pages": "^2.0.1",
     "react": "^16.8.4",
     "react-app-polyfill": "^1.0.1",

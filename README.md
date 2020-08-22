@@ -67,6 +67,8 @@ Designed and built by Matt Jones, bootstrapped with create-react-app.
 * [React Helmet documentation](https://github.com/nfl/react-helmet). Manages the document head, including title, description, and meta tags.
 * [React Snapshot documentation](https://www.npmjs.com/package/react-snapshot). A zero-configuration pre-renderer for React apps.
 * [React Google Analytics](https://github.com/react-ga/react-ga).
+* [Cloudfare](https://www.cloudflare.com/). CDN for serving this page quickly. 
+* [Cloudinary](https://cloudinary.com/documentation/react_integration#getting_started). Image CDN for serving images to this page quickly. 
 
 ### Code Splitting
 

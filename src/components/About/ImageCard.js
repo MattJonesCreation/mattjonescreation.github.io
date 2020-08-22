@@ -1,10 +1,12 @@
 import React from 'react';
-import { Image, Card } from 'semantic-ui-react';
-import profilePic from '../../images/profile.JPG';
+import { Card } from 'semantic-ui-react';
+import { Image, Transformation } from 'cloudinary-react';
 
 const AboutImageCard = () => (
     <Card centered>
-        <Image src={profilePic} />
+        <Image cloudName="himattjones" publicId="profile_zobfhv.webp" secure="true" crop="scale">
+                <Transformation width="290" crop="scale" />
+        </Image>
         <Card.Content>
             <Card.Header>Matt</Card.Header>
             <Card.Meta>Developing Since 2012</Card.Meta>

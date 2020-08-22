@@ -10,7 +10,7 @@ const projects = [
         meta: "March 20, 2019",
         image: (<Image cloudName="himattjones" publicId="daily-prayer-background_racrfy.webp" secure="true" crop="scale"
                  alt="Allows you to build a relationship with God through daily prayer.">
-                    <Transformation width="268" crop="scale" />
+                    <Transformation width="290" height="188" crop="scale" />
                 </Image>)
     },
     {
@@ -20,7 +20,7 @@ const projects = [
         meta: "March 19, 2019",
         image: (<Image cloudName="himattjones" publicId="loan-calculator-background.webp" secure="true" crop="scale" 
                     alt="Loan calculator site for calculating monthly payment and interest.">
-                    <Transformation width="268" crop="scale" />
+                    <Transformation width="290" height="188" crop="scale" />
                 </Image>)
     }, 
     {
@@ -30,7 +30,7 @@ const projects = [
         meta: "June 12, 2020",
         image: (<Image cloudName="himattjones" publicId="rustic-santa-background_bk1zxu.webp" secure="true" crop="scale"
                     alt="Personal website for the rustic santa.">
-                    <Transformation width="268" crop="scale" />
+                    <Transformation width="290" height="188" crop="scale" />
                 </Image>)
     }
 ];

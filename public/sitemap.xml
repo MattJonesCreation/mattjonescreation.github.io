@@ -9,33 +9,33 @@
 
 <url>
   <loc>https://himattjones.com/</loc>
-  <lastmod>2019-04-01T20:19:33+00:00</lastmod>
+  <lastmod>2020-08-22T17:40:54+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://himattjones.com/projects</loc>
-  <lastmod>2019-04-01T20:19:33+00:00</lastmod>
+  <lastmod>2020-08-22T17:40:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://himattjones.com/about</loc>
-  <lastmod>2019-04-01T20:19:33+00:00</lastmod>
+  <lastmod>2020-08-22T17:40:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://himattjones.com/contact</loc>
-  <lastmod>2019-04-01T20:19:33+00:00</lastmod>
+  <lastmod>2020-08-22T17:40:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://himattjones.com/daily-prayer/</loc>
+  <lastmod>2019-03-20T21:20:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://himattjones.com/financial-react/</loc>
   <lastmod>2019-03-21T03:22:55+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://himattjones.com/daily-prayer/</loc>
-  <lastmod>2019-03-20T21:20:57+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 
 

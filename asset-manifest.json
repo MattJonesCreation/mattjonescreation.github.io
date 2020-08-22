@@ -1,18 +1,14 @@
 {
   "main.css": "/static/css/main.f73d2dc8.chunk.css",
-  "main.js": "/static/js/main.703cf591.chunk.js",
-  "main.js.map": "/static/js/main.703cf591.chunk.js.map",
+  "main.js": "/static/js/main.8c0e843c.chunk.js",
+  "main.js.map": "/static/js/main.8c0e843c.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
   "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-  "static/js/2.966e059c.chunk.js": "/static/js/2.966e059c.chunk.js",
-  "static/js/2.966e059c.chunk.js.map": "/static/js/2.966e059c.chunk.js.map",
+  "static/js/2.b226a869.chunk.js": "/static/js/2.b226a869.chunk.js",
+  "static/js/2.b226a869.chunk.js.map": "/static/js/2.b226a869.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.39d6bf15a9f5863eb35698b80738db34.js": "/precache-manifest.39d6bf15a9f5863eb35698b80738db34.js",
+  "precache-manifest.0985306362f3ceba18cf79dab9ea4c9f.js": "/precache-manifest.0985306362f3ceba18cf79dab9ea4c9f.js",
   "service-worker.js": "/service-worker.js",
   "static/css/main.f73d2dc8.chunk.css.map": "/static/css/main.f73d2dc8.chunk.css.map",
-  "static/media/daily-prayer-background.jpg": "/static/media/daily-prayer-background.b2d11483.jpg",
-  "static/media/favicon.ico": "/static/media/favicon.716ce2e8.ico",
-  "static/media/loan-calculator-background.jpg": "/static/media/loan-calculator-background.4159e3df.jpg",
-  "static/media/profile.JPG": "/static/media/profile.c365c411.JPG",
-  "static/media/rustic-santa-background.jpg": "/static/media/rustic-santa-background.e6e7f56c.jpg"
+  "static/media/favicon.ico": "/static/media/favicon.716ce2e8.ico"
 }

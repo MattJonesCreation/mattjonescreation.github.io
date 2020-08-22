@@ -26,11 +26,11 @@ const ScreensContact = () => (
                                 Please do not send spam or try to advertise any services to me.
                             </p>
                         </blockquote>
-                        <Header inverted as="h3">Email</Header>
+                        <Header inverted as="h2">Email</Header>
                         <p><a href="mailto:jonesm33@xavier.edu">jonesm33@xavier.edu</a></p>
-                        <Header inverted as="h3">LinkedIn</Header>
+                        <Header inverted as="h2">LinkedIn</Header>
                         <p><a href="https://www.linkedin.com/in/MattJonesCreation/">linkedin.com/in/MattJonesCreation</a></p>
-                        <Header inverted as="h3">Github</Header>
+                        <Header inverted as="h2">Github</Header>
                         <p><a href="https://github.com/MattJonesCreation">github.com/MattJonesCreation</a></p>
                     </Grid.Column>                                            
                 </Grid.Row>

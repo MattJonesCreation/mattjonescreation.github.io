@@ -3,7 +3,7 @@ import { Table, Header } from 'semantic-ui-react';
 
 const UITable = (props) => (
     <div>
-        <Header inverted as="h3">{props.title}</Header>
+        <Header inverted as="h2">{props.title}</Header>
         <Table inverted unstackable>
             <Table.Header>
                 <Table.Row>

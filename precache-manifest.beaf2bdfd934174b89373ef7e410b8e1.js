@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/static/media/favicon.716ce2e8.ico"
   },
   {
-    "revision": "532f5a0aa880c7ad7519f60a43989563",
+    "revision": "659b30d597fac27a0370657bb2b2b193",
     "url": "/index.html"
   }
 ];

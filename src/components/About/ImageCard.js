@@ -4,7 +4,8 @@ import { Image, Transformation } from 'cloudinary-react';
 
 const AboutImageCard = () => (
     <Card centered>
-        <Image cloudName="himattjones" publicId="profile_zobfhv.webp" secure="true" crop="scale" alt="Personal profile photo for Matt Jones.">
+        <Image cloudName="himattjones" publicId="profile_zobfhv" secure="true" crop="scale" fetchFormat="auto"
+            alt="Personal profile photo for Matt Jones.">
                 <Transformation width="290" crop="scale" />
         </Image>
         <Card.Content>

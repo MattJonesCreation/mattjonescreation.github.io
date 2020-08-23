@@ -2,6 +2,7 @@ import 'react-app-polyfill/ie11';
 import React from 'react';
 import { render } from 'react-snapshot';
 import './index.css';
+import 'semantic-ui-css/semantic.min.css'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 

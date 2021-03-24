@@ -6,7 +6,7 @@ const projects = [
     {
         header: "Daily Prayer",
         description: "Allows you to build a relationship with God through daily prayer.",
-        href: "https://himattjones.com/daily-prayer",
+        href: "https://mattjonescreation.github.io/daily-prayer",
         meta: "March 20, 2019",
         image: (<Image cloudName="himattjones" publicId="daily-prayer-background_racrfy" secure="true" crop="scale" fetchFormat="auto"
                  alt="Allows you to build a relationship with God through daily prayer.">
@@ -16,7 +16,7 @@ const projects = [
     {
         header: "Loan Calculator",
         description: "Simple loan calculator for calculating monthly payments and interest.",
-        href: "https://himattjones.com/financial-react", 
+        href: "https://mattjonescreation.github.io/financial-react", 
         meta: "March 19, 2019",
         image: (<Image cloudName="himattjones" publicId="loan-calculator-background" secure="true" crop="scale" fetchFormat="auto"
                     alt="Loan calculator site for calculating monthly payment and interest.">

@@ -27,7 +27,7 @@ const ScreensContact = () => (
                             </p>
                         </blockquote>
                         <Header inverted as="h2">Email</Header>
-                        <p><a href="mailto:jonesm33@xavier.edu">jonesm33@xavier.edu</a></p>
+                        <p><a href="mailto:mattwjones23@gmail.com">mattwjones23@gmail.com</a></p>
                         <Header inverted as="h2">LinkedIn</Header>
                         <p><a href="https://www.linkedin.com/in/MattJonesCreation/">linkedin.com/in/MattJonesCreation</a></p>
                         <Header inverted as="h2">Github</Header>

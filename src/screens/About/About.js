@@ -7,7 +7,7 @@ import './About.css';
 
 const experienceHeaders = ["Company", "Period", "Position"];
 const experienceRows = [
-    ["SessionM, A Mastercard Company", "April 2020 - now", "Software Engineer II"],
+    ["SessionM, A Mastercard Company", "April 2020 - now", "Lead Software Engineer"],
     ["Software Design Solutions", "May 2016 - April 2020", "Software Engineer"],
     ["Epsilon", "July 2015 - May 2016", "Software Developer"]
 ];

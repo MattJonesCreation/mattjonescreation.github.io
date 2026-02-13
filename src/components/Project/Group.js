@@ -4,16 +4,6 @@ import { Image, Transformation } from 'cloudinary-react';
 
 const projects = [
     {
-        header: "Daily Prayer",
-        description: "Allows you to build a relationship with God through daily prayer.",
-        href: "https://mattjonescreation.github.io/daily-prayer",
-        meta: "March 20, 2019",
-        image: (<Image cloudName="himattjones" publicId="daily-prayer-background_racrfy" secure="true" crop="scale" fetchFormat="auto"
-                 alt="Allows you to build a relationship with God through daily prayer.">
-                    <Transformation width="290" height="188" crop="scale" />
-                </Image>)
-    },
-    {
         header: "Loan Calculator",
         description: "Simple loan calculator for calculating monthly payments and interest.",
         href: "https://mattjonescreation.github.io/financial-react", 
